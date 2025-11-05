@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="BD36CD05-2A27-4F46-8B7F-278AE3606AF4 copy.ico">
+    <title>Undercover</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="BD36CD05-2A27-4F46-8B7F-278AE3606AF4.png" alt="">
+        <h1>#SinContexto</h1>
+    </div>
+
+    <div class="input">
+        <h2>¿Quien va a jugar?</h2>
+        <div class="input_field">
+            <input id="input_" type="text" placeholder="Nombre del Agente" autocomplete="off">
+            <p onclick="add_player()" >+</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="start" onclick="start()">Iniciar Partida</button>
+        <button id="erase" onclick="erase()">Limpiar Jugadores</button>
+    </div>
+
+
+    <div id="players_list" class="players_list">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
